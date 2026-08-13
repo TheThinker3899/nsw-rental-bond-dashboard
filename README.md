@@ -41,7 +41,7 @@ The folder connector means adding a new month is a refresh, not a rebuild.
 
 **The third bedroom is nearly free.** Two- and three-bedroom properties share almost the same median (~$690), while the fourth bedroom adds around $110. Statewide, size buys less than you would expect.
 
-**That flat gradient is a composition effect, not a market fact.** Large properties are disproportionately located in cheaper regions, so the statewide bedroom curve is confounded by geography. Filtering to Sydney city and inner steepens it considerably — the premium for space is real, but it is only visible once location is held constant.
+**That flat gradient is a composition effect, not a market fact.** Large properties are disproportionately located in cheaper regions, so the statewide bedroom curve is confounded by geography. Filter to Sydney city and inner and the five-bedroom median doubles to $2,000; filter to Regional NSW and it falls to around $870. The premium for space is real and substantial — it is simply invisible until location is held constant.
 
 ## Limitations
 
@@ -59,12 +59,13 @@ The folder connector means adding a new month is a refresh, not a rebuild.
 
 ```
 ├── README.md
-├── sydney-rental-dashboard.pbix
+├── Sydney-rental-dashboard.pbix
 └── screenshots/
-    ├── dashboard-overview.png
-    ├── filtered-sydney-inner.png
-    └── filtered-regional-nsw.png
+├── dashboard-overview.png
+├── filtered-sydney-inner.png
+└── filtered-regional-nsw.png
 ```
+
 
 ---
 
