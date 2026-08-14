@@ -43,6 +43,12 @@ The folder connector means adding a new month is a refresh, not a rebuild.
 
 **That flat gradient is a composition effect, not a market fact.** Large properties are disproportionately located in cheaper regions, so the statewide bedroom curve is confounded by geography. Filter to Sydney city and inner and the five-bedroom median doubles to $2,000; filter to Regional NSW and it falls to around $870. The premium for space is real and substantial — it is simply invisible until location is held constant.
 
+| Filtered to Sydney city and inner | Filtered to Regional NSW |
+|---|---|
+| ![Sydney city and inner](screenshots/filtered-sydney-inner.png) | ![Regional NSW](screenshots/filtered-regional-nsw.png) |
+
+*Same dashboard, same measure, one slicer changed. The five-bedroom median moves from around $870 to $2,000.*
+
 ## Limitations
 
 **Bond lodgements are new leases only.** Existing tenancies do not re-lodge, so this measures the price of entering the market, not the rent being paid across the whole rental stock. It moves faster than the underlying market and is not comparable to advertised asking rents.
@@ -58,12 +64,13 @@ The folder connector means adding a new month is a refresh, not a rebuild.
 ## Files
 
 ```
+.
 ├── README.md
-├── Sydney-rental-dashboard.pbix
+├── nsw-rental-dashboard.pbix
 └── screenshots/
-├── dashboard-overview.png
-├── filtered-sydney-inner.png
-└── filtered-regional-nsw.png
+    ├── dashboard-overview.png
+    ├── filtered-sydney-inner.png
+    └── filtered-regional-nsw.png
 ```
 
 
